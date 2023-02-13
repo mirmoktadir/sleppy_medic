@@ -6,7 +6,8 @@ import '../modules/auth/signup/bindings/signup_binding.dart';
 import '../modules/auth/signup/views/signup_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
-
+import '../modules/media/bindings/media_binding.dart';
+import '../modules/media/views/media_view.dart';
 import '../modules/onboarding/bindings/onboarding_binding.dart';
 import '../modules/onboarding/views/onboarding_view.dart';
 
@@ -39,6 +40,11 @@ class AppPages {
       name: _Paths.SIGNUP,
       page: () => SignupView(),
       binding: SignupBinding(),
+    ),
+    GetPage(
+      name: _Paths.MEDIA,
+      page: () => const MediaView(),
+      binding: MediaBinding(),
     ),
   ];
 }

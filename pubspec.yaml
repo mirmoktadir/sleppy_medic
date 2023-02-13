@@ -32,6 +32,8 @@ dependencies:
   flutter: 
     sdk: flutter
 
+  audioplayers: ^3.0.1
+
 
 
 
@@ -63,6 +65,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/audio/
     - assets/vectors/
     - assets/fonts/
     - animations/
